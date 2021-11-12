@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Modal } from "antd";
-
 import { ListProduct } from "./components/ListProduct";
 import { AddProductForm } from "./components/AddProductForm";
-
 import "antd/dist/antd.css";
 import "./App.css";
 import ProductAPI from "./api/productAPI";
